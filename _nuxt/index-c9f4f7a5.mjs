@@ -1,0 +1,1 @@
+import{_ as t,o,c as n,b as a,w as c,d as _,e as r}from"./entry-e1c2d412.mjs";const s={middleware:"home_redirect"},d=r(" Home ");function i(m,p,l,u,x,f){const e=_;return o(),n("div",null,[a(e,{to:"/home"},{default:c(()=>[d]),_:1})])}var $=t(s,[["render",i]]);export{$ as default};

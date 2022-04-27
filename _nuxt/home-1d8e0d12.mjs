@@ -1,0 +1,1 @@
+import{_ as a,o as c,c as o,a as e}from"./entry-e1c2d412.mjs";const s={},t=e("div",{class:"header"},[e("h1",null,"TeamSleaze")],-1),r=[t];function n(_,l){return c(),o("div",null,r)}var i=a(s,[["render",n]]);export{i as default};
