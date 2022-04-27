@@ -1,0 +1,1 @@
+import{_ as a,o as _,c,b as t,w as e,d as s,e as r,f as d}from"./entry-9800e8fc.mjs";const u={middleware:"authenticated"},p=r("Home page");function l(i,m,f,x,h,N){const o=d,n=s;return _(),c("div",null,[t(n,null,{default:e(()=>[t(o,{to:"./"},{default:e(()=>[p]),_:1})]),_:1})])}var k=a(u,[["render",l]]);export{k as default};
