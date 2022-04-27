@@ -2,6 +2,7 @@ import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
     mode: 'universal',
+    target: 'static',
     css: [
         '~/public/css/global.css'
     ],

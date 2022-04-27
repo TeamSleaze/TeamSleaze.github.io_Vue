@@ -5,10 +5,12 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.1"
+    "nuxt": "3.0.0-rc.1",
+    "push-dir": "^0.4.1"
   },
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.6"
