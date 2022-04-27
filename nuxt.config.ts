@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     mode: 'universal',
     target: 'static',
     css: [
-        '~/public/css/global.css'
+        '~/css/global.css'
     ],
     head: {
         title: process.env.npm_package_name || '',

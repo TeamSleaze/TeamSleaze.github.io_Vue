@@ -1,6 +1,8 @@
 <template>
   <div>
-    kek
+    <NuxtLink to="/home">
+      Home
+    </NuxtLink>
   </div>
 </template>
 
