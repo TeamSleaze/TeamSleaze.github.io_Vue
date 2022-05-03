@@ -1,8 +1,16 @@
 <template>
-  <div>
-    <div class="header">
-      <h1>TeamSleaze</h1>
+  <div class="wrapper">
+    <div class="background" />
+
+    <div class="body">
+      <div class="title">
+        TeamSleaze
+      </div>
+      <div class="subtitle">
+        Development organization meant to collaborate on projects together and share knowledge.
+      </div>
     </div>
+    
   </div>
 </template>
 

@@ -1,3 +1,66 @@
+:root {
+    --color-background: #0c0d0f;
+    
+    --color-primary: #0c9ee8;
+    --color-secondary: #0066ff;
+    
+    --color-text: #ffffff;
+    --color-title: #ffffff;
+    --color-subtitle: #bcc0c4;
+    --color-small: #787d87;
+}
+
 html {
     font-family: 'Roboto';
+    color: var(--color-text);
+}
+
+div .wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../public/images/home_background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: calc(50% + 65px);
+
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    z-index: 0;
+    background: var(--color-background);
+}
+
+div .body {
+    padding-top: 8rem;
+
+    display: grid;
+    grid-gap: 1rem;
+
+    margin: 0 calc((100% - 640px) / 2);
+}
+
+.body .title {
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.body .subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-subtitle);
 }
