@@ -9,7 +9,7 @@
 <script>
   export default {
     mounted () {
-      window.location.href = '/home'
+      this.$router.push({path: '/home'});
     }
   }
 </script>

@@ -14,6 +14,6 @@
   </div>
 </template>
 
-<style>
+<script>
 
-</style>
+</script>
