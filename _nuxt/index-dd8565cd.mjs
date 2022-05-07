@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./entry-e8502700.mjs";const n={mounted(){this.$router.push({path:"/home"})}},r=s("p",null," Redirecting... ",-1),a=[r];function c(_,d,i,p,u,l){return t(),o("div",null,a)}var f=e(n,[["render",c]]);export{f as default};

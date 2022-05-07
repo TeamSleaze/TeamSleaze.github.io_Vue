@@ -1,1 +1,0 @@
-import{_ as e,o,c as t,a as n}from"./entry-541c9e20.mjs";const c={mounted(){window.location.href="/home"}},s=n("p",null," Redirecting... ",-1),a=[s];function r(_,d,i,l,p,f){return o(),t("div",null,a)}var m=e(c,[["render",r]]);export{m as default};
