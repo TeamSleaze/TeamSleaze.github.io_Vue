@@ -1,13 +1,15 @@
 <template>
   <div>
-    <NuxtLink to="/home">
-      Home
-    </NuxtLink>
+    <p>
+      Redirecting...
+    </p>
   </div>
 </template>
 
 <script>
   export default {
-    middleware: 'home_redirect'
+    mounted () {
+      window.location.href = '/home'
+    }
   }
 </script>
